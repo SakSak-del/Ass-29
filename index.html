@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Text Operations</h1>
+        </header>
+        <main>
+            <textarea id="textInput" placeholder="Type your text here..."></textarea>
+            <div class="buttons">
+                <button onclick="convertToUpperCase()">Uppercase</button>
+                <button onclick="convertToLowerCase()">Lowercase</button>
+                <button onclick="countWords()">Word Count</button>
+                <button onclick="countCharacters()">Character Count</button>
+            </div>
+            <div id="result"></div>
+        </main>
+        <footer>
+            <p>Simple text operations tool</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
